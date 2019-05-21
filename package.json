@@ -1,0 +1,25 @@
+{
+  "name": "codeceptjs-guide",
+  "version": "1.0.0",
+  "description": "Codeceptjs end to end tests guide",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/codeceptjs run-multiple parallel --plugins retryFailedStep --reporter mochawesome",
+    "debug": "node_modules/.bin/codeceptjs run"
+  },
+  "keywords": [
+    "tests"
+  ],
+  "author": "Dr Dre",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^5.10.0"
+  },
+  "dependencies": {
+    "codeceptjs": "^1.4.6",
+    "faker": "^4.1.0",
+    "mochawesome": "^3.1.1",
+    "puppeteer": "^1.11.0",
+    "wait-on": "^3.2.0"
+  }
+}
